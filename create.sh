@@ -6,7 +6,7 @@
 #    By: tkomeno <tkomeno@student.42tokyo.jp>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/21 21:45:21 by tkomeno           #+#    #+#              #
-#    Updated: 2022/11/21 21:58:38 by tkomeno          ###   ########.fr        #
+#    Updated: 2022/11/21 22:12:06 by tkomeno          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -50,19 +50,19 @@ echo "Done."
 
 echo "$Cyan\c"
 echo "Downloading 'main.c'..."
-wget https://raw.githubusercontent.com/riceset/ft_boilerplate/main/main.c -P ./sources/ 2> /dev/null
+wget https://raw.githubusercontent.com/riceset/ft_boilerplate/main/files/main.c -P ./sources/ 2> /dev/null
 echo "$Green\c"
 echo "Done."
 
 echo "$Cyan\c"
 echo "Downloading 'Makefile'..."
-wget https://raw.githubusercontent.com/riceset/ft_boilerplate/main/Makefile 2> /dev/null
+wget https://raw.githubusercontent.com/riceset/ft_boilerplate/main/files/Makefile 2> /dev/null
 echo "$Green\c"
 echo "Done."
 
 echo "$Cyan\c"
 echo "Downloading '.gitignore'..."
-wget https://raw.githubusercontent.com/riceset/ft_boilerplate/main/.gitignore 2> /dev/null
+wget https://raw.githubusercontent.com/riceset/ft_boilerplate/main/files/.gitignore 2> /dev/null
 echo "$Green\c"
 echo "Done."
 echo "$NoColor\c"
