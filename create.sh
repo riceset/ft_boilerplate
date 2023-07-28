@@ -50,25 +50,25 @@ echo "Done."
 
 echo "$Cyan\c"
 echo "Downloading 'main.c'..."
-curl -o ./sources/main.c https://raw.githubusercontent.com/riceset/ft_boilerplate/main/files/main.c 2> /dev/null
+curl -o ./sources/main.c https://raw.githubusercontent.com/tkomeno/ft_boilerplate_files/main/main.c 2> /dev/null
 echo "$Green\c"
 echo "Done."
 
 echo "$Cyan\c"
 echo "Downloading 'minunit.h'..."
-curl -o ./includes/minunit.h https://raw.githubusercontent.com/riceset/ft_boilerplate/main/files/minunit.h 2> /dev/null
+curl -o ./includes/minunit.h https://raw.githubusercontent.com/tkomeno/ft_boilerplate_files/main/minunit.h 2> /dev/null
 echo "$Green\c"
 echo "Done."
 echo "$Cyan\c"
 
 echo "Downloading 'Makefile'..."
-curl -O https://raw.githubusercontent.com/riceset/ft_boilerplate/main/files/Makefile 2> /dev/null
+curl -O https://raw.githubusercontent.com/tkomeno/ft_boilerplate_files/main/Makefile 2> /dev/null
 echo "$Green\c"
 echo "Done."
 
 echo "$Cyan\c"
 echo "Downloading '.gitignore'..."
-curl -O https://raw.githubusercontent.com/riceset/ft_boilerplate/main/files/.gitignore 2> /dev/null
+curl -O https://raw.githubusercontent.com/tkomeno/ft_boilerplate_files/main/.gitignore 2> /dev/null
 echo "$Green\c"
 echo "Done."
 echo "$NoColor\c"
