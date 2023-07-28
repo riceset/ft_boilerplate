@@ -6,7 +6,7 @@
 #    By: tkomeno <tkomeno@student.42tokyo.jp>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/21 21:45:21 by tkomeno           #+#    #+#              #
-#    Updated: 2023/07/28 17:56:49 by tkomeno          ###   ########.fr        #
+#    Updated: 2023/07/28 18:00:06 by tkomeno          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -50,13 +50,13 @@ echo "Done."
 
 echo "$Cyan\c"
 echo "Downloading 'main.c'..."
-curl -o ./sources/ https://raw.githubusercontent.com/riceset/ft_boilerplate/main/files/main.c 2> /dev/null
+curl -o ./sources/main.c https://raw.githubusercontent.com/riceset/ft_boilerplate/main/files/main.c 2> /dev/null
 echo "$Green\c"
 echo "Done."
 
 echo "$Cyan\c"
 echo "Downloading 'minunit.h'..."
-curl -o ./includes/ https://raw.githubusercontent.com/riceset/ft_boilerplate/main/files/minunit.h 2> /dev/null
+curl -o ./includes/minunit.h https://raw.githubusercontent.com/riceset/ft_boilerplate/main/files/minunit.h 2> /dev/null
 echo "$Green\c"
 echo "Done."
 echo "$Cyan\c"
